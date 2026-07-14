@@ -40,7 +40,7 @@
     <!-- Main Container -->
     <main class="portfolio-wrapper">
 
-        <!-- HERO SECTION -->
+        <!-- HERO SECTION (Dark Section) -->
         <section id="home" class="hero-section">
             <div class="hero-content fade-in">
                 <div class="status-badge">
@@ -69,7 +69,7 @@
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
+        <!-- ABOUT SECTION (Dark Section) -->
         <section id="about" class="section scroll-reveal">
             <div class="section-header">
                 <span class="section-tagline">Professional Identity</span>
@@ -96,7 +96,7 @@
             </div>
         </section>
 
-        <!-- SKILLS SECTION -->
+        <!-- SKILLS SECTION (Dark Section) -->
         <section id="skills" class="section scroll-reveal">
             <div class="section-header">
                 <span class="section-tagline">Technical Stack</span>
@@ -132,7 +132,7 @@
             </div>
         </section>
 
-        <!-- EXPERIENCE SECTION -->
+        <!-- EXPERIENCE SECTION (Dark Section) -->
         <section id="experience" class="section scroll-reveal">
             <div class="section-header">
                 <span class="section-tagline">Track Record</span>
@@ -214,117 +214,134 @@
             </div>
         </section>
 
-        <!-- CERTIFICATES SECTION -->
-        <section id="certificates" class="section scroll-reveal">
-            <div class="section-header">
-                <span class="section-tagline">Industry Validation</span>
-                <h2 class="section-title">Certifications & Training</h2>
-            </div>
-            <div class="certs-grid">
+        <!-- CERTIFICATES SECTION (Light Section Extension) -->
+        <section id="certificates" class="section cert-premium-section">
+            <div class="cert-premium-layout">
+                <div class="cert-showcase-column">
+                    <div class="cert-main-frame">
+                        <img src="images/certi3.jpg" alt="Featured Certificate" id="featured-cert-img" class="cert-display-element">
+                    </div>
+                </div>
                 
-                <div class="cert-card">
-                    <div class="cert-image-holder">
-                        <img src="images/certi.jpg" alt="SEO Sprint">
+                <div class="cert-info-column">
+                    <span class="section-tagline" style="color: var(--text-muted-dark);">Industry Validation</span>
+                    <h2 class="section-title" style="color: var(--text-dark-section);">SEO & Digital Expertise <span class="italic-serif">recognized.</span></h2>
+                    <p class="section-desc" style="color: var(--text-muted-dark);">Verified credentials affirming advanced execution parameters across enterprise data spaces, modern crawling architectures, and localization protocols.</p>
+                    
+                    <div class="cert-badge-row">
+                        <span class="cert-tag-pill">Advanced Architecture</span>
+                        <span class="cert-tag-pill">Local SEO Networks</span>
+                        <span class="cert-tag-pill">Verified Track</span>
                     </div>
-                    <div class="cert-content">
-                        <h4>SEO Sprint (Taglish)</h4>
-                        <span class="cert-issuer">Gab Valimento – SEOWorkout, Dec 2024</span>
-                        <p>Focus on structural local planning, competitive analysis, and operational sprint models.</p>
+
+                    <div class="cert-meta-matrix">
+                        <div class="meta-info-card">
+                            <label>CERTIFICATE TRACK</label>
+                            <p id="meta-cert-title">Premium Local SEO Masterclass</p>
+                        </div>
+                        <div class="meta-info-card">
+                            <label>ISSUED BY</label>
+                            <p id="meta-cert-issuer">Adrian Gaňa – CademyDR</p>
+                        </div>
+                        <div class="meta-info-card">
+                            <label>CORE CAPABILITY</label>
+                            <p id="meta-cert-level">50+ Deep Modules & Scripts</p>
+                        </div>
+                        <div class="meta-info-card">
+                            <label>STRATEGIC USE</label>
+                            <p id="meta-cert-use">Map Optimization & Hyperlocal Visibility</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-selector-list">
+                        <button class="selector-item active" onclick="updateCertShowcase('images/certi3.jpg', 'Premium Local SEO Masterclass', 'Adrian Gaňa – CademyDR', '50+ Deep Modules & Scripts', 'Map Optimization & Hyperlocal Visibility')">
+                            Premium Local SEO Masterclass
+                        </button>
+                        <button class="selector-item" onclick="updateCertShowcase('images/certi.jpg', 'SEO Sprint (Taglish)', 'Gab Valimento – SEOWorkout', 'Local Sprints & Audits', 'Competitive Analysis & Operational Spikes')">
+                            SEO Sprint (Taglish)
+                        </button>
+                        <button class="selector-item" onclick="updateCertShowcase('images/certi1.jpg', 'WOSCON 2024 Attendee', 'Workshop & SEO Conference', 'Algorithmic Systems Analysis', 'Tracking Crawler Updates & Organic Trends')">
+                            WOSCON 2024 Conference
+                        </button>
+                        <button class="selector-item" onclick="updateCertShowcase('images/certi2.jpg', 'PinoySEO Bootcamp', 'PinoySEO Series', 'Enterprise Client Scaling', 'Campaign Deployment Strategies')">
+                            PinoySEO Bootcamp
+                        </button>
+                        <button class="selector-item" onclick="updateCertShowcase('images/certi4.jpg', 'Industry Endorsements', 'Verified Digital Achievements', 'Ongoing Commitments', 'Tracking Next-Gen Frameworks')">
+                            Industry Endorsements
+                        </button>
                     </div>
                 </div>
-
-                <div class="cert-card">
-                    <div class="cert-image-holder">
-                        <img src="images/certi1.jpg" alt="WOSCON">
-                    </div>
-                    <div class="cert-content">
-                        <h4>WOSCON 2024 Attendee</h4>
-                        <span class="cert-issuer">Workshop & SEO Conference</span>
-                        <p>Analyzing modern algorithms, local ranking trends, and automated crawling updates.</p>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-image-holder">
-                        <img src="images/certi2.jpg" alt="PinoySEO">
-                    </div>
-                    <div class="cert-content">
-                        <h4>PinoySEO Bootcamp</h4>
-                        <span class="cert-issuer">PinoySEO Series</span>
-                        <p>Advanced agency client strategy and scaling processes specifically for SEO campaigns.</p>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-image-holder">
-                        <img src="images/certi3.jpg" alt="Local SEO Masterclass">
-                    </div>
-                    <div class="cert-content">
-                        <h4>Premium Local SEO Masterclass</h4>
-                        <span class="cert-issuer">Adrian Gaňa – CademyDR</span>
-                        <p>Completed 50+ deep modules covering advanced map configurations, local listings, and regional scripts.</p>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-image-holder">
-                        <img src="images/certi4.jpg" alt="Additional Credential">
-                    </div>
-                    <div class="cert-content">
-                        <h4>Industry Endorsements</h4>
-                        <span class="cert-issuer">Verified Digital Achievements</span>
-                        <p>Ongoing educational commitments tracking next-generation search frameworks.</p>
-                    </div>
-                </div>
-
             </div>
         </section>
 
-        <!-- CONTACT SECTION -->
-        <section id="contact" class="section scroll-reveal">
-            <div class="contact-glass-container">
-                <div class="contact-info">
-                    <span class="section-tagline">Communication</span>
-                    <h2 class="contact-header">Let's build a secure search acquisition route.</h2>
-                    <p>Discuss open full-time opportunities, organic contract work, or complete sitewide technical analyses.</p>
+        <!-- CONTACT SECTION (Dark Section Extension) -->
+        <section id="contact" class="section contact-premium-section">
+            <div class="contact-premium-layout">
+                <div class="contact-headline-column">
+                    <span class="section-tagline">Secure Channel</span>
+                    <h2 class="contact-title">Ready to support your team with <span class="italic-serif">reliable work.</span></h2>
+                    <p class="contact-subtitle">Data-driven optimization systems configured for enterprise development, visibility frameworks, and contract search architecture.</p>
                     
-                    <div class="contact-methods">
-                        <div class="contact-item">
-                            <span class="contact-icon">📍</span>
-                            <div>
-                                <label>Location</label>
-                                <p>Cebu, PH 6018</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">✉️</span>
-                            <div>
-                                <label>Direct Email</label>
-                                <p><a href="mailto:sasammealourine@gmail.com">sasammealourine@gmail.com</a></p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">📞</span>
-                            <div>
-                                <label>Direct Line</label>
-                                <p><a href="tel:+639206947506">+63 920 694 7506</a></p>
-                            </div>
-                        </div>
+                    <div class="contact-skill-tags">
+                        <span class="c-tag">Local SEO Strategy</span>
+                        <span class="c-tag">On-Page Systems</span>
+                        <span class="c-tag">Data-Driven Audits</span>
+                        <span class="c-tag">AI Workflows</span>
                     </div>
                 </div>
-                <div class="contact-interactive">
-                    <form class="lead-form" id="contactForm">
-                        <div class="form-row">
-                            <input type="text" id="name" placeholder="Your Name" required>
+                
+                <div class="contact-directory-column">
+                    <div class="directory-container">
+                        
+                        <div class="directory-row">
+                            <div class="dir-icon">📍</div>
+                            <div class="dir-data">
+                                <label>LOCATION</label>
+                                <p>Cebu, Philippines</p>
+                            </div>
                         </div>
-                        <div class="form-row">
-                            <input type="email" id="email" placeholder="Your Work Email" required>
-                        </div>
-                        <div class="form-row">
-                            <textarea id="message" placeholder="What are your structural organic visibility requirements?" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary form-btn">Send Message</button>
-                    </form>
+
+                        <a href="tel:+639206947506" class="directory-row interactive-row">
+                            <div class="dir-icon">📞</div>
+                            <div class="dir-data">
+                                <label>PHONE</label>
+                                <p>+63 920 694 7506</p>
+                            </div>
+                        </a>
+
+                        <a href="mailto:sasammealourine@gmail.com" class="directory-row interactive-row">
+                            <div class="dir-icon">✉️</div>
+                            <div class="dir-data">
+                                <label>EMAIL</label>
+                                <p>sasammealourine@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="directory-row interactive-row">
+                            <div class="dir-icon">💼</div>
+                            <div class="dir-data">
+                                <label>LINKEDIN</label>
+                                <p>linkedin.com/in/mea-lourine-sasam</p>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="directory-row interactive-row">
+                            <div class="dir-icon">📸</div>
+                            <div class="dir-data">
+                                <label>INSTAGRAM</label>
+                                <p>@mealourinesasam</p>
+                            </div>
+                        </a>
+
+                        <a href="https://onlinejobs.ph" target="_blank" rel="noopener" class="directory-row interactive-row">
+                            <div class="dir-icon">🌐</div>
+                            <div class="dir-data">
+                                <label>ONLINEJOBS.PH</label>
+                                <p>jobseekers/info/mea-sasam</p>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -336,7 +353,6 @@
         <p>&copy; 2026 Mea Lourine Sasam. System optimized for user experience and organic crawlability.</p>
     </footer>
 
-    <!-- JavaScript Injection -->
     <script src="script.js"></script>
 </body>
 </html>

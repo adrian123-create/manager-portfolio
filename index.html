@@ -1,343 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mea Lourine Sasam — SEO & Digital Marketing Specialist</title>
-<meta name="description" content="SEO Specialist experienced in WordPress, on-page SEO, Google Business Profile, and local SEO. Portfolio, experience, and certifications.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mea Lourine Sasam | SEO & Digital Marketing Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- background rank-grid decoration -->
-<div class="rank-grid" aria-hidden="true"></div>
-
-<!-- ================= NAV ================= -->
-<header class="nav-wrap">
-  <nav class="nav">
-    <a href="#home" class="nav-mark">MS<span class="nav-mark-dot">.</span></a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
-      <li><a href="#about" class="nav-link" data-nav>About</a></li>
-      <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
-      <li><a href="#experience" class="nav-link" data-nav>Experience</a></li>
-      <li><a href="#certificates" class="nav-link" data-nav>Certificates</a></li>
-      <li><a href="#contact" class="nav-link nav-cta" data-nav>Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-
-  <!-- ================= HOME / HERO ================= -->
-  <section id="home" class="section hero">
-    <div class="hero-inner">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">SEO &amp; Digital Marketing Specialist</p>
-        <h1 class="hero-title">
-          Ranking businesses<br>
-          on page one — <em>on purpose.</em>
-        </h1>
-        <p class="hero-sub">
-          Cebu-based SEO specialist helping local and international businesses grow
-          organic visibility through search, content, and Google Business Profile strategy.
-        </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">View contact details</a>
-          <a href="#experience" class="btn btn-ghost">See my experience</a>
-        </div>
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span class="hero-stat-num" data-count="40">0</span><span class="hero-stat-plus">+</span>
-            <span class="hero-stat-label">high-authority sites secured via outreach</span>
-          </div>
-          <div class="hero-stat">
-            <span class="hero-stat-num" data-count="5">0</span><span class="hero-stat-plus">+</span>
-            <span class="hero-stat-label">years across SEO &amp; digital marketing roles</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-visual reveal" style="--delay:120ms">
-        <!-- Search bar mock -->
-        <div class="serp-browser">
-          <div class="serp-browser-bar">
-            <span class="serp-dot"></span><span class="serp-dot"></span><span class="serp-dot"></span>
-          </div>
-          <div class="serp-searchbar">
-            <svg class="serp-search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            <span id="typedQuery" class="serp-typed"></span><span class="serp-caret">|</span>
-          </div>
-
-          <!-- Result card -->
-          <div class="serp-result" id="serpResult">
-            <div class="serp-result-top">
-              <span class="serp-favicon">MS</span>
-              <div>
-                <p class="serp-site">Mea Lourine Sasam</p>
-                <p class="serp-url">measasam.dev &rsaquo; about</p>
-              </div>
-            </div>
-            <p class="serp-headline">Mea Lourine Sasam — SEO Specialist &amp; Local SEO Consultant</p>
-            <p class="serp-desc">SEO specialist skilled in WordPress, on-page SEO, Google Business Profile, and content optimization. Helping businesses improve visibility through search, content, and social.</p>
-            <div class="serp-tags">
-              <span class="serp-tag">WordPress</span>
-              <span class="serp-tag">Local SEO</span>
-              <span class="serp-tag">GBP</span>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Dynamic Animated Background Mesh -->
+    <div class="bg-mesh">
+        <div class="mesh-orb orb-1"></div>
+        <div class="mesh-orb orb-2"></div>
     </div>
-    <div class="scroll-cue" aria-hidden="true"><span></span></div>
-  </section>
 
-  <!-- ================= ABOUT ================= -->
-  <section id="about" class="section about">
-    <div class="section-inner">
-      <p class="eyebrow reveal">About</p>
-      <div class="about-grid">
-        <div class="about-copy reveal">
-          <h2 class="section-title">Search-first thinking,<br>content-second execution.</h2>
-          <p class="about-text">
-            I'm an SEO Specialist and Local SEO Consultant based in Cebu, Philippines, with a
-            background that started in Elementary Education before moving fully into digital
-            marketing. That teaching foundation shows up in how I work — breaking down search
-            performance into clear, explainable actions for clients across healthcare, legal,
-            local service, and home service industries.
-          </p>
-          <p class="about-text">
-            My day-to-day covers on-page SEO, WordPress and Elementor builds, Google Business
-            Profile management, content optimization, and AI-assisted research workflows —
-            always reviewed for accuracy before anything goes live.
-          </p>
-          <div class="about-facts">
-            <div class="about-fact">
-              <span class="about-fact-label">Based in</span>
-              <span class="about-fact-value">Cebu, Philippines</span>
+    <!-- Fixed Modern Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">M<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
             </div>
-            <div class="about-fact">
-              <span class="about-fact-label">Education</span>
-              <span class="about-fact-value">B.Ed, Elementary Education — CIT University</span>
+        </div>
+    </nav>
+
+    <!-- MAIN SINGLE PAGE SCROLL -->
+    <main class="portfolio-container">
+
+        <!-- HOME / HERO SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="hero-content">
+                <div class="badge-pulsing">
+                    <span class="pulse-dot"></span> Available for Freelance & Remote Work
+                </div>
+                <h1 class="hero-title">
+                    Elevating Brands Through <br>
+                    <span class="gradient-text">Data-Driven SEO</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Hi, I'm <strong>Mea Lourine Sasam</strong>. I bridge the gap between search intent and conversions using organic SEO, local visibility, and automated AI marketing workflows.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View My Work</a>
+                </div>
             </div>
-            <div class="about-fact">
-              <span class="about-fact-label">Currently</span>
-              <span class="about-fact-value">SEO Specialist / Local SEO Consultant, Remote</span>
+            <div class="hero-visual">
+                <div class="image-wrapper-floating">
+                    <img src="images/mea.jpg" alt="Mea Lourine Sasam" class="profile-img">
+                    <div class="tech-tag floating-tag-1">⚡ SEO Specialist</div>
+                    <div class="tech-tag floating-tag-2">🚀 AI Workflows</div>
+                </div>
             </div>
-          </div>
-        </div>
+        </section>
 
-        <div class="about-chart reveal" style="--delay:120ms">
-          <p class="chart-label">Organic ranking trend — illustrative</p>
-          <svg viewBox="0 0 320 180" class="growth-svg" aria-hidden="true">
-            <line x1="0" y1="150" x2="320" y2="150" stroke="var(--border)" stroke-width="1"/>
-            <line x1="0" y1="100" x2="320" y2="100" stroke="var(--border)" stroke-width="1"/>
-            <line x1="0" y1="50" x2="320" y2="50" stroke="var(--border)" stroke-width="1"/>
-            <path id="growthLine" class="growth-path" d="M0,150 C40,145 60,120 90,110 C130,96 150,100 180,80 C220,56 240,60 270,30 C290,14 300,20 320,10" fill="none" stroke="var(--accent-emerald)" stroke-width="3" stroke-linecap="round"/>
-            <circle class="growth-point" cx="320" cy="10" r="5" fill="var(--accent-amber)"/>
-          </svg>
-          <p class="chart-caption">Page 3 → Top 5 rankings achieved across 10+ high-competition keywords.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= SKILLS ================= -->
-  <section id="skills" class="section skills">
-    <div class="section-inner">
-      <p class="eyebrow reveal">Skills</p>
-      <h2 class="section-title reveal">Ranking for the right things.</h2>
-      <p class="section-sub reveal" style="--delay:60ms">Core tools and disciplines, styled the way I think about them — as ranking keywords.</p>
-
-      <div class="keyword-cloud reveal" style="--delay:120ms">
-        <span class="kw kw-1">SEO Strategy</span>
-        <span class="kw kw-2">WordPress</span>
-        <span class="kw kw-1">Elementor</span>
-        <span class="kw kw-3">Google Business Profile</span>
-        <span class="kw kw-2">Local SEO</span>
-        <span class="kw kw-1">On-Page SEO</span>
-        <span class="kw kw-3">Google Search Console</span>
-        <span class="kw kw-2">GA4</span>
-        <span class="kw kw-1">Rank Math &amp; Yoast</span>
-        <span class="kw kw-3">Ahrefs</span>
-        <span class="kw kw-2">Semrush</span>
-        <span class="kw kw-1">Screaming Frog</span>
-        <span class="kw kw-3">Canva</span>
-        <span class="kw kw-2">Social Media Posting</span>
-        <span class="kw kw-1">Content Optimization</span>
-        <span class="kw kw-3">AI-Assisted Workflows</span>
-        <span class="kw kw-2">Link Building</span>
-        <span class="kw kw-1">Backlink Audits</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= EXPERIENCE ================= -->
-  <section id="experience" class="section experience">
-    <div class="section-inner">
-      <p class="eyebrow reveal">Experience</p>
-      <h2 class="section-title reveal">Five roles, one search bar at a time.</h2>
-
-      <div class="timeline">
-
-        <div class="timeline-item reveal">
-          <div class="timeline-index">01</div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>SEO Specialist / Local SEO Consultant</h3>
-              <span class="timeline-date">06/2025 — Present</span>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card card-highlight">
+                    <h3>Who I Am</h3>
+                    <p>I am an experienced SEO Specialist with a demonstrated history of refining digital content, structuring regional architectures, and engineering high-impact local search strategies.</p>
+                </div>
+                <div class="about-card">
+                    <h3>My Mission</h3>
+                    <p>To help businesses capture structural online search rankings, ensure accurate local map listings, and drive sustained organic conversions without relying entirely on paid ad channels.</p>
+                </div>
+                <div class="about-card education-card">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <span class="edu-year">2018</span>
+                        <h4>Bachelor's Degree in Elementary Education</h4>
+                        <p>Cebu Institute of Technology – University</p>
+                    </div>
+                </div>
             </div>
-            <p class="timeline-org">Remote</p>
-            <ul class="timeline-list">
-              <li>Manage SEO, WordPress, Google Business Profile, and social media for clients across local service, healthcare, legal, and home service industries.</li>
-              <li>Optimize pages, blog posts, meta titles/descriptions, headings, images, and internal links to improve search visibility.</li>
-              <li>Use AI-assisted workflows for keyword research, content briefs, and captions — reviewed for accuracy before publishing.</li>
-            </ul>
-          </div>
-        </div>
+        </section>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-index">02</div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>SEO Manager</h3>
-              <span class="timeline-date">10/2021 — 05/2025</span>
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+            <h2 class="section-title">Expertise & Tools</h2>
+            <p class="section-desc">A specialized toolkit optimized for modern rank acquisition and performance metrics.</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Operations</h3>
+                    <div class="skill-tags">
+                        <span class="tag">On-Page SEO</span>
+                        <span class="tag">Local SEO Strategy</span>
+                        <span class="tag">WordPress Optimization</span>
+                        <span class="tag">Google Business Profile (GBP)</span>
+                        <span class="tag">Link Building</span>
+                        <span class="tag">Content Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Platforms & Systems</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Google Search Console</span>
+                        <span class="tag">GA4</span>
+                        <span class="tag">Elementor</span>
+                        <span class="tag">Rank Math / Yoast</span>
+                        <span class="tag">Ahrefs</span>
+                        <span class="tag">Semrush</span>
+                        <span class="tag">Screaming Frog</span>
+                        <span class="tag">ChatGPT / AI Prompts</span>
+                    </div>
+                </div>
             </div>
-            <p class="timeline-org">Shipwreck Studio · Wollongong, NSW</p>
-            <ul class="timeline-list">
-              <li>Developed location landing pages targeting high-intent keywords to improve organic visibility and lead generation.</li>
-              <li>Improved Google Business Profile performance through post strategy, service updates, and photo optimization.</li>
-              <li>Secured placements on 40+ relevant, high-authority sites through backlink outreach and guest posting.</li>
-            </ul>
-          </div>
-        </div>
+        </section>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-index">03</div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>Link Builder</h3>
-              <span class="timeline-date">08/2021 — 04/2024</span>
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section experience-section">
+            <h2 class="section-title">Professional Milestones</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">06/2025 - Present</span>
+                        <span class="timeline-location">Remote</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>SEO Specialist / Local SEO Consultant</h3>
+                        <p class="company-name">Independent Practice</p>
+                        <ul>
+                            <li>Manage core SEO optimization across healthcare, legal, and local business portfolios.</li>
+                            <li>Configure technical schemas, metadata structuring, and localized review loops.</li>
+                            <li>Leverage automated AI prompting sequences to draft structured content briefs and keyword mapping records.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">10/2021 - 05/2025</span>
+                        <span class="timeline-location">Wollongong NSW</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>SEO Manager</h3>
+                        <p class="company-name">Shipwreck Studio</p>
+                        <ul>
+                            <li>Engineered localized landing pages targeting transaction-heavy consumer keywords.</li>
+                            <li>Secured organic backlink placements across more than 40 authority domains via targeted industry outreach.</li>
+                            <li>Analyzed log crawl efficiencies alongside developers to improve Core Web Vitals performance indexes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">08/2021 - 04/2024</span>
+                        <span class="timeline-location">Reading UK</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Link Builder</h3>
+                        <p class="company-name">Dream Digital</p>
+                        <ul>
+                            <li>Executed extensive NAP structural validation passes, raising systemic rank indexing placement averages by 25%.</li>
+                            <li>Designed and placed infographics to scale high-tier referring traffic streams by 18%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">09/2018 - 09/2020</span>
+                        <span class="timeline-location">Pittsburgh, PA</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Digital Marketing Specialist</h3>
+                        <p class="company-name">Midstream Marketing</p>
+                        <ul>
+                            <li>Successfully pushed 10 high-tier competitive keyphrases from ranking index Page 3 to Top 5 placements.</li>
+                            <li>Conducted complete technical code audit evaluations to uncover underlying structural performance crawl blocks.</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-            <p class="timeline-org">Dream Digital · Reading, UK</p>
-            <ul class="timeline-list">
-              <li>Conducted citation audits and NAP cleanups, improving local search accuracy and directory visibility.</li>
-              <li>Local citation strategy delivered a 25% improvement in local SEO rankings.</li>
-              <li>Infographic outreach increased backlink quality and drove an 18% traffic lift.</li>
-            </ul>
-          </div>
-        </div>
+        </section>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-index">04</div>
-          <div class="timeline-body">
-            <div class="timeline-head">
-              <h3>Digital Marketing Specialist</h3>
-              <span class="timeline-date">09/2018 — 09/2020</span>
+        <!-- CERTIFICATES SECTION -->
+        <section id="certificates" class="section certificates-section">
+            <h2 class="section-title">Credentials & Validations</h2>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-img-container">
+                        <img src="images/certi.jpg" alt="SEO Sprint">
+                    </div>
+                    <div class="cert-details">
+                        <h4>SEO Sprint (Taglish)</h4>
+                        <p>Gab Valimento – SEOWorkout, Dec 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-container">
+                        <img src="images/certi1.jpg" alt="WOSCON 2024">
+                    </div>
+                    <div class="cert-details">
+                        <h4>WOSCON 2024</h4>
+                        <p>Workshop and SEO Conference Attendee</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-container">
+                        <img src="images/certi2.jpg" alt="PinoySEO">
+                    </div>
+                    <div class="cert-details">
+                        <h4>PinoySEO SEO Training Series</h4>
+                        <p>Bootcamp Strategy and Pitching Graduate</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-container">
+                        <img src="images/certi3.jpg" alt="Premium Local SEO">
+                    </div>
+                    <div class="cert-details">
+                        <h4>Premium Local SEO Masterclass</h4>
+                        <p>Adrian Gaňa – CademyDR</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-container">
+                        <img src="images/certi4.jpg" alt="Additional Credential">
+                    </div>
+                    <div class="cert-details">
+                        <h4>Professional Recognition</h4>
+                        <p>Industry Verified Technical Competency</p>
+                    </div>
+                </div>
             </div>
-            <p class="timeline-org">Midstream Marketing · Pittsburgh, PA</p>
-            <ul class="timeline-list">
-              <li>Moved 10+ high-competition keywords from page 3 to Top 5 organic rankings.</li>
-              <li>Title tag and site structure optimization raised website engagement by 15%.</li>
-              <li>Local citation building delivered a 20% boost in local search visibility.</li>
-            </ul>
-          </div>
-        </div>
+        </section>
 
-      </div>
-    </div>
-  </section>
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="contact-card-box">
+                <div class="contact-left">
+                    <h2 class="contact-title">Let’s optimize your pipeline together.</h2>
+                    <p>Reach out to discuss positions, technical site evaluations, or project openings.</p>
+                    <div class="contact-info-list">
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <label>Location</label>
+                                <p>Cebu, PH 6018</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <label>Email Address</label>
+                                <p><a href="mailto:sasammealourine@gmail.com">sasammealourine@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <label>Direct Line</label>
+                                <p><a href="tel:+639206947506">+63 920 694 7506</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your website goals..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
-  <!-- ================= CERTIFICATES ================= -->
-  <section id="certificates" class="section certificates">
-    <div class="section-inner">
-      <p class="eyebrow reveal">Certificates &amp; Training</p>
-      <h2 class="section-title reveal">Continuous, hands-on learning.</h2>
-      <p class="section-sub reveal" style="--delay:60ms">Click any certificate to view it larger.</p>
+    </main>
 
-      <div class="cert-grid reveal" style="--delay:120ms">
+    <footer class="footer">
+        <p>&copy; 2026 Mea Lourine Sasam. Built with structural optimization standards.</p>
+    </footer>
 
-        <button class="cert-card" data-img="images/certi.jpg" data-title="SEO Sprint (Taglish) — Gab Valimento">
-          <img src="images/certi.jpg" alt="SEO Sprint certificate" loading="lazy">
-          <div class="cert-info">
-            <p class="cert-name">SEO Sprint (Taglish) — Gab Valimento</p>
-            <p class="cert-issuer">SEOWorkout · December 2024</p>
-          </div>
-        </button>
-
-        <button class="cert-card" data-img="images/certi1.jpg" data-title="WOSCON 2024">
-          <img src="images/certi1.jpg" alt="WOSCON 2024 certificate" loading="lazy">
-          <div class="cert-info">
-            <p class="cert-name">WOSCON 2024</p>
-            <p class="cert-issuer">Workshop and SEO Conference · Attendee</p>
-          </div>
-        </button>
-
-        <button class="cert-card" data-img="images/certi2.jpg" data-title="PinoySEO SEO Training Series">
-          <img src="images/certi2.jpg" alt="PinoySEO Training Series certificate" loading="lazy">
-          <div class="cert-info">
-            <p class="cert-name">PinoySEO SEO Training Series</p>
-            <p class="cert-issuer">Bootcamp Attendee · 2024</p>
-          </div>
-        </button>
-
-        <button class="cert-card" data-img="images/certi3.jpg" data-title="Premium Local SEO Masterclass — Adrian Gaña">
-          <img src="images/certi3.jpg" alt="Premium Local SEO Masterclass certificate" loading="lazy">
-          <div class="cert-info">
-            <p class="cert-name">Premium Local SEO Masterclass (Tagalog)</p>
-            <p class="cert-issuer">CademyDR · 2023 · Adrian Gaña</p>
-          </div>
-        </button>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= CONTACT ================= -->
-  <section id="contact" class="section contact">
-    <div class="section-inner">
-      <p class="eyebrow reveal">Contact</p>
-      <h2 class="section-title reveal">Let's improve your rankings.</h2>
-      <p class="section-sub reveal" style="--delay:60ms">Open to SEO, local SEO, and digital marketing opportunities — remote or Cebu-based.</p>
-
-      <div class="contact-grid reveal" style="--delay:120ms">
-        <a class="contact-card" href="mailto:sasammealourine@gmail.com">
-          <span class="contact-label">Email</span>
-          <span class="contact-value">sasammealourine@gmail.com</span>
-        </a>
-        <a class="contact-card" href="tel:+639206947506">
-          <span class="contact-label">Phone</span>
-          <span class="contact-value">+63 920 694 7506</span>
-        </a>
-        <div class="contact-card contact-card-static">
-          <span class="contact-label">Location</span>
-          <span class="contact-value">Cebu, Philippines 6018</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <p>&copy; <span id="year"></span> Mea Lourine Sasam. Built with care.</p>
-</footer>
-
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" aria-hidden="true">
-  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
-  <figure class="lightbox-figure">
-    <img id="lightboxImg" src="" alt="">
-    <figcaption id="lightboxCaption"></figcaption>
-  </figure>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
